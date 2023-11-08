@@ -9,16 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "next": "14.0.1",
+    "primereact": "^10.0.9",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.0.1"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@testing-library/cypress": "^10.0.1",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "cypress": "^13.4.0",
     "eslint": "^8",
-    "eslint-config-next": "14.0.1"
+    "eslint-config-next": "14.0.1",
+    "sass": "^1.69.5",
+    "typescript": "^5"
   }
 }
