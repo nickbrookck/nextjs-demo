@@ -16,7 +16,6 @@ export default function Dashboard() {
 
         <Link href=".." data-testid="back-button">
           <Button label="Go back">
-
           </Button>
         </Link>
       </Panel>
