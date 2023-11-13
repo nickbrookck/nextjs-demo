@@ -1,5 +1,5 @@
-describe('template spec', () => {
-  it('passes', () => {
+describe('list search page', () => {
+  it('should allow searching', () => {
     cy.visit('/');
     cy.get('h1').should('contain.text', 'Really simple');
     cy.findByTestId('next-page-button').click();
@@ -8,3 +8,5 @@ describe('template spec', () => {
     cy.findByTestId('back-button');
   })
 })
+
+
