@@ -12,7 +12,6 @@ export default function Dashboard() {
 
       <Panel header="Stuff" className="m-1">
 
-
         <InputText placeholder="Search" data-testid="search-box"/>
 
         <Link href=".." data-testid="back-button">
